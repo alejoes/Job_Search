@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Amazon Jobs</title>
+
+  <!-- Leaflet heatmap plugin-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js" integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q==" crossorigin=""></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link rel="stylesheet" href="./static/css/style.css" />
+  <!-- Bootstrap plugin--> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 jumbotron text-center"  style= "background-color:rgb(185, 159, 8)">
+          <h1>Amazon Jobs</h1>
+      
+        </div>
+      </div>
+      
+    </div>
+ 
+
+
+    <!-- <div class="container-fluid"> -->
+      <div class= "container-fluid" id="map"></div>
+    <!-- </div> -->
+    <!-- <div class="container-fluid"> -->
+      <div id="bar-plot"></div>
+    <!-- </div> -->
+
+
+      <!-- API key -->
+    <!-- <script type="text/javascript" src="static/js/config.js"></script> -->
+      <!-- JS -->
+    <script type="text/javascript" src="static/js/plogic.js"></script>
+    <script type="text/javascript" src="static/js/leaflet-heat.js"></script>
+    <!-- <script src="{{ url_for('static', filename='js/js.js') }}"></script> -->
+      <!-- PLOTLY --> 
+    <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  </body>
+
+</html>
